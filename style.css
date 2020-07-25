@@ -1,0 +1,50 @@
+body {
+  margin: 10px 150px 0 150px;
+  background-color: khaki;
+}
+ul.topnav {
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+
+ul.topnav li a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+ul.topnav li.name {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 24px;
+  font-family: Garamond;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.left, 
+  ul.topnav li {float: none;}
+}
+h2{
+  font-family: 'Garamond', sans-serif;
+  font-size: 36px;
+}
+.text {
+  padding: 20px;
+  font-size: 20px;
+  font-family: monospace;
+}
+footer{
+  border-top: 1px solid black;
+  text-align: center;
+}
