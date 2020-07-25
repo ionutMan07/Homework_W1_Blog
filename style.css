@@ -1,6 +1,7 @@
 body {
-  margin: 10px 150px 0 150px;
   background-color: khaki;
+  padding: 0px 150px 0 150px;
+  margin:20px 20px 0px 20px;
 }
 ul.topnav {
   top: 0;
@@ -37,14 +38,19 @@ ul.topnav li.name {
 }
 h2{
   font-family: 'Garamond', sans-serif;
-  font-size: 36px;
+  font-size: 24px;
 }
-.text {
-  padding: 20px;
-  font-size: 20px;
+.list,
+p {
+  font-size: 12px;
   font-family: monospace;
+  text-align: justify;
 }
 footer{
   border-top: 1px solid black;
+}
+#contact{
   text-align: center;
+  margin-top: 10px;
+  padding: 0;
 }
