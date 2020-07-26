@@ -1,7 +1,7 @@
 body {
   background-color: khaki;
-  padding: 0px 150px 0 150px;
-  margin:20px 20px 0px 20px;
+  /*padding: 0px 150px 0 150px;
+  margin:20px 20px 0px 20px;*/
 }
 ul.topnav {
   top: 0;
@@ -16,7 +16,8 @@ ul.topnav li a {
   float: right;
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  /*vertical-align: middle;*/
+  padding: 5px 5px;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
@@ -27,7 +28,7 @@ ul.topnav li.name {
   float: left;
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 5px;
   font-size: 24px;
   font-family: Garamond;
 }
@@ -35,6 +36,11 @@ ul.topnav li.name {
 @media screen and (max-width: 600px) {
   ul.topnav li.left, 
   ul.topnav li {float: none;}
+}
+@media screen and (min-width: 600px) {
+  body {
+    padding: 0px 150px 0 150px;
+    margin:20px 20px 0px 20px;}
 }
 h2{
   font-family: 'Garamond', sans-serif;
