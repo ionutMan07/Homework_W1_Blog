@@ -1,2 +1,2 @@
-# ionut_blog_00
-ionut blog
+# homework informal school of IT week 1
+Blog
