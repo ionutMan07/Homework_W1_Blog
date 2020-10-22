@@ -1,2 +1,2 @@
-# homework informal school of IT week 1
-Blog
+# Homework Informal sc. of IT week 1
+Simple Blog
